@@ -6,7 +6,7 @@ class Person1 {    // class는 즉, 여러 자료형을 품고 있는 person은 
 }
 
 public class MemEx01 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(Person1.age);
 
     }
