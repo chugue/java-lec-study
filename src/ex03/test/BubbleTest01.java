@@ -8,12 +8,8 @@ public class BubbleTest01 {
 
         // 첫 번째 도전 4바퀴 돌기
         for (int i = 0; i < N - 1 ; i++) {
-            for (int j = 0; j < N - 1; j++) {
-                System.out.println("몇번돌지?");
-            }
+            System.out.println("몇번돌지?");
             System.out.println();
         }
-        // 두 번째 도전 4바퀴 돌고 내부적으로 4바퀴 돌기
-
     }
 }
