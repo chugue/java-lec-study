@@ -38,7 +38,7 @@ public class BubbleTest04 {
             temp = arr[3];
             arr[3] = arr[4];
             arr[4] = temp;
-        }
+        }   // 코드를 잘 보면 변수이외에는 코드가 변함이 없다. 복붙이 가능하다.
 
         for (int i = 0; i < 5; i++) {
             System.out.print(arr[i] + " ");
