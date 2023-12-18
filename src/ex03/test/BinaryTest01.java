@@ -1,28 +1,28 @@
 package ex03.test;
-/*
-target = 8
-
-start=0 ~ start=8
- mid = N/2 = 4 -> arr[4] -> 값 5
- if (8==5) -> mid 값 mid 위치에 타겟이 있다.
- if (8<5) 참일경우에
- 5번지 ~ 8번지
-
-start=5 ~ end=8
- 5번지 ~ 8번지
- mid = 7 = arr[7] -> 값 8
- if (8==5) -> mid 값 mid 위치에 타겟이 있다.
- if(8>8)
- */
-
-
 
 public class BinaryTest01 {
     public static void main(String[] args) {
-        //이진 검색 => 반드시 정렬이 되어 있어야 한다.
-        int[] arr = {1,2,3,4,5,6,7,8,9}; // 9 / 2 = 4
+        int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        final int target = 3;
+        int start = 0;
+        int end = arr.length - 1;
+        int mid;
+        int round = 0;
 
-
-
+        while (true) {
+            mid = (start + end) / 2;
+            if (arr[mid] == target) {
+                break ; // 값을 찾으면 반복을 종료한다.
+            }
+            if (arr[mid] < target) {
+                start = mid + 1;
+                round++;
+            }
+            if (arr[mid] > target) {
+                end = mid - 1;
+                round++;
+            }
+        }
+        System.out.println("target값은 "+ mid + "이며, 총 " + round + "회전만에 찾았습니다.");
     }
 }

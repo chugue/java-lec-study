@@ -32,7 +32,7 @@ public class BinaryTest02_3 {
                 // 시간복잡도 log2(N) -> log2(13) -> 3.700 (3과 4사이)
                 // 이진 검색 => 반드시 정렬이 되어 있어야 한다.
                 // 16 / 2*2*2*2 -> logn -> log16
-                int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+                int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
                 int N = arr.length;
                 final int target = 5;
                 int start = 0;

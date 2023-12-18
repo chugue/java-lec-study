@@ -29,10 +29,5 @@ public class SelectionArray_teacher {
 
         // 변경해야될 위치 5 -> replace -> rep
         // 변경해야될 위치 8 -> min -> min
-
-
-
-
-
     }
 }
