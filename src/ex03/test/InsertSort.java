@@ -2,7 +2,7 @@ package ex03.test;
 
 public class InsertSort {
     public static void main(String[] args) {
-        int[] arr = {8, 5, 6, 2, 4, 7, 19, 20, 1};
+        int[] arr = {1, 5, 6, 2, 4, 7, 19, 20, 8};
         int a = arr.length;
         int temp = 0;
 
