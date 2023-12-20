@@ -17,7 +17,7 @@ public class ScopeEx01 {
 
     // 메인 시작 전 static에 n2변수와 m1메서드가 로드 되어 있음.
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(1);
         m1();
         System.out.println(2);
         ScopeEx01 sc = new ScopeEx01();
