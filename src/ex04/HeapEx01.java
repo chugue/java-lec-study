@@ -13,6 +13,7 @@ class Cat {
     }
 }
 public class HeapEx01 {
+    /// 망함.. ㄴ;ㅣ/!
     public static void main(String[] args) {
         Cat c = new Cat();
     }
