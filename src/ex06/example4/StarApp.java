@@ -17,6 +17,5 @@ public class StarApp {
 
         gameStart(z1, d1);
         gameStart(dark1, d1);
-
     }
 }
