@@ -8,7 +8,6 @@ class Zealot extends Protoss{
         System.out.println("질럿이 공격합니다.");
     }
 }
-
 class Dragoon extends Protoss{
     public void attack (){
         System.out.println("드라군이 공격합니다.");
@@ -26,10 +25,7 @@ public class CastingEx01 {
             Dragoon u = (Dragoon) p;
             u.attack();
         }
-
-
     }
-
     public static void main(String[] args) {
         start(new Zealot());
         start(new Dragoon());
