@@ -18,7 +18,7 @@ class Account {
         this.balance = this.balance - amount;
         return balance;
     }
-    public void transfer(int amount, ex05.exercise.Account other) {
+    public void transfer(int amount, Account other) {
         this.balance = this.balance - amount;
         other.balance = other.balance + amount;
     }
