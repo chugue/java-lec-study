@@ -35,12 +35,13 @@ class LgRemocon implements Remocon {
  * 날짜 : 2023.12.26
  * 구현체 : SamsungRemocon, Lgremocon
  */
-class CommonRemecon {
-    // [Remocon <--, SamsungRemocon]
-    // [Remocon <--, LgRemocon]
+
+// [Remocon <--, SamsungRemocon]
+// [Remocon <--, LgRemocon]
+class CommonRemocon {
     private Remocon r;
 
-    public CommonRemecon(Remocon r) {
+    public CommonRemocon(Remocon r) {
         this.r = r;
     }
     public void on () {
@@ -56,7 +57,7 @@ public class InterEx01 {
 
     public static void main(String[] args) {
         Remocon Samsung = new SamsungRemocon(); // (Remocon, SamsungRemocon) 부모타입의 자식객체
-        CommonRemecon cr = new CommonRemecon(new SamsungRemocon());
+        CommonRemocon cr = new CommonRemocon(new SamsungRemocon());
         cr.on();
     }
 }
