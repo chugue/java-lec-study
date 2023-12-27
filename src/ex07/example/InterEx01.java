@@ -38,6 +38,10 @@ class LgRemocon implements Remocon {
 
 // [Remocon <--, SamsungRemocon]
 // [Remocon <--, LgRemocon]
+
+// (Remocon, SamsungRemocon) 부모타입의 자식객체
+
+
 class CommonRemocon {
     private Remocon r;
 
@@ -51,12 +55,9 @@ class CommonRemocon {
         r.off();
     }
 }
-
-
 public class InterEx01 {
-
     public static void main(String[] args) {
-        Remocon Samsung = new SamsungRemocon(); // (Remocon, SamsungRemocon) 부모타입의 자식객체
+        Remocon Samsung = new SamsungRemocon();
         CommonRemocon cr = new CommonRemocon(new SamsungRemocon());
         cr.on();
     }
