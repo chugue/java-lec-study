@@ -17,6 +17,11 @@ public class StringEx01 {
 
     public static void main(String[] args) {
         String data = "AABBBCCCCDDDDD"; // Byte -> 14Byte
+         // 인코딩 A2B3C4D5
+         // 디코딩 AABBBCCCCDDDDD
+
+
+
         String[] token = data.split("");
 
         int count = 0;
@@ -113,8 +118,6 @@ public class StringEx01 {
 //        System.out.println(Arrays.toString(token));
 
 
-        // 인코딩 A2B3C4D5
 
-        // 디코딩 AABBBCCCCDDDDD
     }
 }
