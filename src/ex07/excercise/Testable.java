@@ -19,9 +19,5 @@ public class Testable {
         Movable[] m = new Movable[]{new Circle(), new Rectangle()};
         m[0].move();
         m[1].move();
-
-
     }
-
-
 }
