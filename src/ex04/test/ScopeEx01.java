@@ -1,7 +1,6 @@
 package ex04.test;
 
 public class ScopeEx01 {
-
     int n1 = 1;
     static int n2 = 2;
 
