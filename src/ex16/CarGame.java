@@ -37,7 +37,7 @@ public class CarGame extends JFrame {
         (new MyThread("D:\\WORKSPACE\\java_lec\\Study\\src\\ex16\\car2.png", 100, 100)).start();
         (new MyThread("D:\\WORKSPACE\\java_lec\\Study\\src\\ex16\\car3.png", 100, 200)).start();
         setVisible(true);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(3);
     }
     public static void main(String[] args) {
         CarGame t = new CarGame();
