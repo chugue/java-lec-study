@@ -23,3 +23,6 @@ public class CopyEx01 {
         System.out.println(list.hashCode());
     }
 }
+
+
+
