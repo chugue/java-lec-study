@@ -49,7 +49,7 @@ class Customer {
 public class CoffeeApp {
     public static void main(String[] args) {
         Menu menu = new Menu();
-        // 고객이 주문한 커피 이름을 받아옴
+        // 고객이 주문한 커피 이름을 받아옴e
         Customer customer = new Customer();
         String orderedCoffeeName = customer.order();
         // 주문한 커피의 객체를 메뉴에서 가져옴
