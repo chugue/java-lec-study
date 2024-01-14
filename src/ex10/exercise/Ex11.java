@@ -1,7 +1,6 @@
 package ex10.exercise;
 import javax.swing.*;
 import java.awt.*;
-
 import static javax.swing.SwingConstants.CENTER;
 
 public class Ex11 extends JFrame {
