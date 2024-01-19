@@ -9,10 +9,12 @@ import java.net.Socket;
 public class Client {
     public static void main(String[] args) {
         try {
+            // sending
             Socket socket = new Socket("LocalHost", 20000);
             PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
             pw.println("3");
 
+            // reading
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(socket.getInputStream())
             );
