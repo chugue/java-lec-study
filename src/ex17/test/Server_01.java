@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.nio.charset.Charset;
 import java.util.Scanner;
 
-public class Server {
+public class Server_01 {
     public static void main(String[] args) {
         new Thread(() -> {
             try (ServerSocket serverSocket = new ServerSocket(20000)) {
